@@ -1,7 +1,7 @@
 # Yolov8 + Segnmentation
 
 
-#### Project Website: https://mobile-aloha.github.io/
+#### Project Website: https://github.com/WilliamSCUT/Yolov8-Segnmentation
 
 This project mainly includes the implementation of a detection segmenter based on the yolov8-seg model.
 
