@@ -47,3 +47,10 @@ To train the segnmentation model after get a large number of labeled images thro
 
 You can dynamically adjust parameters such as epochs according to the size and complexity of the data set, or modify the data path to your own data path.
 
+
+### Model Testing
+To test the segnmentation model trained above, run:
+
+    yolo test_v8.py
+
+You can specify the model path by changing ``model_path`` in this py file.
