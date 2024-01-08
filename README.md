@@ -30,7 +30,15 @@ To set up a new terminal, run:
     conda activate yolo
     cd <path to act repo>
 
-### Auto Annotation 
+
+### Detection Data annotation
+We use ``labelImg`` as the annotation tool. You need to open the images folder and change the save dir into your ``Annotation`` folder.
+To start it , run:
+
+    labelImg
+
+
+### Mask Auto Annotation 
 
 We use ``four_object_dection_model`` as the pretrained detection model, combining the segnmentation model ``sam_b.pt`` to achieve auto annotation. You only need to replace the detection model with your own model to achieve migration, and remember to change the model path in ``auto_annotate.py``.
 To generated , run:
